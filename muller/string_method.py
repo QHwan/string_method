@@ -111,7 +111,7 @@ while (tol > max(10.**-4,1e-10)):
 		dist_vec[i] = ((xnew_vec[i+1]-xnew_vec[i])**2 + (ynew_vec[i+1]-ynew_vec[i])**2)**0.5
 
 
-	print step, tol
+	print(step, tol)
 
 	# update density profile
 	x_vec = xnew_vec
